@@ -15,8 +15,10 @@ class School
     end
   end
   def sort
-    self.roaster.each fo |grade|
-      grade.students
+    self.roaster.each fo |grade, students|
+      students.sort!
+    end
+    
       
     
 end
