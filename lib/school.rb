@@ -14,6 +14,8 @@ class School
       roster[grade] = [name]
     end
   end
+  
+  
   def sort
     self.roster.each do |grade, students|
       students.sort!
