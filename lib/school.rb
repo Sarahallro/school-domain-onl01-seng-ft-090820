@@ -18,9 +18,7 @@ class School
     self.roaster.each fo |grade, students|
       students.sort!
     end
-    
-      
-    
+  end
 end
 
 
